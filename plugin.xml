@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-k-pdfviewer"
+    version="0.0.3">
+    <name>KPDFViewer</name>
+    <description>Cordova KPDFViewer Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,pdfviewer,document,pdf</keywords>
+
+    <js-module src="www/pdfviewer.js" name="KPDFViewer">
+        <clobbers target="KPDFViewer"/>
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+		<preference name="ANDROID_API_VERSION" default="28.+"/>
+        <framework src="com.android.support:appcompat-v7:$ANDROID_API_VERSION"/>
+		<framework src="com.android.support:design:$ANDROID_API_VERSION"/>
+		<framework src="com.android.support:support-v4:$ANDROID_API_VERSION"/>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="KPDFViewer">
+                <param name="android-package" value="in.co.indusnet.cordova.plugins.pdfviewer.KPDFViewer"/>
+            </feature>
+        </config-file>
+
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+			<activity android:name="com.github.firstplugin.PDFViewActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        </config-file>
+
+        <lib-file src="src/android/lib/pdfviewer.aar"/>
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
+        <source-file src="src/android/KPDFViewer.java" target-dir="src/in/co/indusnet/cordova/plugins/pdfviewer"/>
+    </platform>
+</plugin>

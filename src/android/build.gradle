@@ -1,0 +1,4 @@
+repositories { flatDir { dirs 'libs' } }
+dependencies {
+    compile(name: 'pdfviewer', ext: 'aar')
+}
