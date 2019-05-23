@@ -12,12 +12,10 @@ import org.json.JSONObject;
 
 
 public class KPDFViewer extends CordovaPlugin implements PDFView.OnBookMarkListener {
-
     CallbackContext cordovaCallbackContext;
 
     @Override
     public boolean execute(String action, final JSONArray args, final CallbackContext callbackContext) throws JSONException {
-
         if (action.equals("open")) {
             cordova.getActivity().runOnUiThread(() -> {
                 cordovaCallbackContext = callbackContext;
@@ -26,27 +24,26 @@ public class KPDFViewer extends CordovaPlugin implements PDFView.OnBookMarkListe
                     options = args.getJSONObject(0);
                     String pdfFileName = options.getString("fileName");
                     String title = options.getString("title");
+					String bookmarkMessage = options.getString("bookmarkMessage");
                     int currentPage = options.getInt("currentPage");
-                    openViewer(title, pdfFileName, currentPage);
+                    openViewer(title, pdfFileName, currentPage, bookmarkMessage);
                 }catch (JSONException e){
                     cordovaCallbackContext.error(e.getMessage());
                 }
-
             });
-
             return true;
         }
-
         return false;
     }
 
-    private void openViewer(String title, String fileName, int currentPage) {
+    private void openViewer(String title, String fileName, int currentPage, String bookmarkMessage) {
         PDFView.with(cordova.getActivity(), this)
                 .fromFile(cordova.getContext(), fileName)
                 .landingPage(currentPage)
                 .toolBarColor("#37464F")
                 .toolBarTextColor("#FFFFFF")
                 .toolBarTitle(title)
+				.setBookmarkToastMessage(bookmarkMessage)
                 .start();
     }
 

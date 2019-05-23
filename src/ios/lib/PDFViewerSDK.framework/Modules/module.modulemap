@@ -1,0 +1,11 @@
+framework module PDFViewerSDK {
+  umbrella header "PDFViewerSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PDFViewerSDK.Swift {
+    header "PDFViewerSDK-Swift.h"
+    requires objc
+}

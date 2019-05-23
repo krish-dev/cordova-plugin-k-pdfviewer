@@ -39,4 +39,17 @@
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
         <source-file src="src/android/KPDFViewer.java" target-dir="src/in/co/indusnet/cordova/plugins/pdfviewer"/>
     </platform>
+
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+            <feature name="KPDFViewer">
+                <param name="ios-package" value="KPDFViewer" />
+            </feature>
+        </config-file>
+
+		<framework src="src/ios/lib/PDFViewerSDK.framework"  embed="true" custom="true" />
+
+		<header-file src="src/ios/KPDFViewer.h" />
+        <source-file src="src/ios/KPDFViewer.m" />
+	</platform>
 </plugin>
