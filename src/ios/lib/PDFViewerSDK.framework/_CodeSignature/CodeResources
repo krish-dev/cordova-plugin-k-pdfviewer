@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/PDFViewerSDK-Swift.h</key>
 		<data>
-		vDvguvbIf3KRRqTgxOELmG1DBCY=
+		WHPBVU83Qmiig0NnJAfu67ppX9A=
 		</data>
 		<key>Headers/PDFViewerSDK.h</key>
 		<data>
@@ -66,15 +66,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hxHQR8k/R9uWNH7VARNBNc32cNI=
+		SouLVl3spvNgSvMhBQZze0G63IM=
 		</data>
 		<key>Modules/PDFViewerSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		OSz899a41lKA63YffJ+on8SWcs8=
+		Ro/AhMH9ScwKWQ1/3NsuO1KmRzg=
 		</data>
 		<key>Modules/PDFViewerSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gr5mp9+K/AuRxX3t9/EBeWDr0vM=
+		wzN6E0Kc7LnuatSu8iPeuWC/g7M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		ZCNSl62qexE3xBjhV26VNCgDS9g=
+		r8hONCzSIT3qgCHSwN0Lnf7DKgU=
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -90,51 +90,43 @@
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/PDFViewerVCStoryboardID.nib</key>
 		<data>
-		N0xnI1bArZvVcBR/5v0QL7kUmhI=
+		0nnyaM0sQk3vCEtaDB6KeosPLfs=
 		</data>
-		<key>back_botton_icon.png</key>
+		<key>PDF_backbutton_icon.png</key>
 		<data>
-		ge2bxz3mjSUBh+efRtp5fnp/28s=
+		jwA2kxJG4aNSKyzizrFtuUv6WDI=
 		</data>
-		<key>bookmark_icon.png</key>
+		<key>PDF_bookmark_icon.png</key>
 		<data>
-		O8NITqxnXvAB/jtNhkaH1V5vWvY=
+		nGxa7H6aflpMOg25RChWJjywZfk=
 		</data>
-		<key>fullDisplayViewIcon.png</key>
+		<key>PDF_gotopage.png</key>
 		<data>
-		AN2wMRLRgz/hR1GRWXIRtGWAsbU=
+		VseBq+WYCmVrYHb6DQTcQVcDmfM=
 		</data>
-		<key>gridDisplayViewIcon.png</key>
+		<key>PDF_menubar.png</key>
 		<data>
-		5aoGDgDsy6rIroAygsmx88LREU0=
+		hfOwU2MRc/wLntGSh7PAZaHE+Qs=
 		</data>
-		<key>left_angle_bracket.png</key>
+		<key>PDF_next_fade_icon.png</key>
 		<data>
-		zDUnyppZBB/9UGDiJ8XSSYyK4g0=
+		oeuoVkerykPEg1dzd6dqyobmDMY=
 		</data>
-		<key>left_angle_bracket_fed.png</key>
+		<key>PDF_next_icon.png</key>
 		<data>
-		G8RrC73Spd3fZhPqYxwGpZYKzYk=
+		QW/LmpzwZgGwvc8NbKuVJDamrsk=
+		</data>
+		<key>PDF_previous_fade_icon.png</key>
+		<data>
+		5j3M3WpBLo8ITngltMA9xp/jp/E=
+		</data>
+		<key>PDF_previous_icon.png</key>
+		<data>
+		b9xbq7auDebVVbnLXJ96LRZWTes=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		s7ona7AnRrumtUKclaVHhamjsDg=
-		</data>
-		<key>pdf_placeholder.png</key>
-		<data>
-		8k+tDqEHimczoll3eMrmxZnr+l4=
-		</data>
-		<key>right_angle_bracket.png</key>
-		<data>
-		Ch+J545ljlx/2PJT0dcLBpR4Tws=
-		</data>
-		<key>right_angle_bracket_fed.png</key>
-		<data>
-		Wft0KojRLXJB4EVffvznSKwfujc=
-		</data>
-		<key>sample.pdf</key>
-		<data>
-		InViZdThVE5GJZufsTx7WwdiE0s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -234,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3wN6KB+l795fDKIho1f824hdn2S/dq1u0vzLWaVFoEs=
+			Cq7L3Vd7ZAeimXTuTjmf5gTBnhGR2vSNllCva51C/QI=
 			</data>
 		</dict>
 		<key>Headers/PDFViewerSDK.h</key>
@@ -248,14 +240,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7l7e6LoiInHIoRKqTAu53IGPCA+Jd8KEAAUHuxfPwo=
+			xKwX12COVtfw9iy0eWvBqxlW7jd9p6E+CWCYek8G1e0=
 			</data>
 		</dict>
 		<key>Modules/PDFViewerSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Q/5JkNbUi9WbcSfZXC4WbSu/ixTLnPOuh3bbcf9TdM=
+			u8hLMfwyy2rYrfHkpLtT4MoAhgNE8nXCurdqsULTVtY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -269,7 +261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wSQCA3mqkjXvmPAC/EaeyM9uTcwhPt7DBIIfmUAbG6g=
+			vgdwAg/efa8wbMKOYlXDa8Z/ebz7eWGwaIqGJ6wgZ+A=
 			</data>
 		</dict>
 		<key>PDFViewerStoryboard.storyboardc/Info.plist</key>
@@ -283,49 +275,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BfiCZWyqo4tuVF5MHldk3Feumb+X8fubXXw2Smg+3CY=
+			R7891zcLHK/RNSoj6qln6weTghM8FGAb/J6vCUHSuEM=
 			</data>
 		</dict>
-		<key>back_botton_icon.png</key>
+		<key>PDF_backbutton_icon.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JxHPJHDLfchEWBHbtFQ1clxekCzM56V3/0CIS4PG7u0=
+			WKh6sCJ81Axg9HYpHXB0Q4dUWZUAswsqSZt06YO5vyc=
 			</data>
 		</dict>
-		<key>bookmark_icon.png</key>
+		<key>PDF_bookmark_icon.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVJfUn3Mc7hA1WkDtzQwu03lqH2rlAW7pxz5CYlHCeM=
+			WjT2TTkWXw6SGPRmvzixZHe5fclwiG/ChGk+zYJVtzA=
 			</data>
 		</dict>
-		<key>fullDisplayViewIcon.png</key>
+		<key>PDF_gotopage.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qP3/2RBv9HFIWYTSam8S7Cbg/OajKGvFwyuhtoA0M/0=
+			t1jpnYfbUO0uiX4a2rOoQbE1YF6BitXxjQtuQ/Svn9I=
 			</data>
 		</dict>
-		<key>gridDisplayViewIcon.png</key>
+		<key>PDF_menubar.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YTw4GetkUvc3y9Q3ppgtAagYuPADy/o0Dd/js3Vwb1A=
+			5c/L+VMnaoYhtNOfpcXL5V6kH/lxwE8x7zXtC5jza0A=
 			</data>
 		</dict>
-		<key>left_angle_bracket.png</key>
+		<key>PDF_next_fade_icon.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GzY4a+ZzzP3rEOoFSe34qUa3JDMZr5AfvYFrcHlZ4eg=
+			Wq7uho8Y2imJsivshf05+x6WuFtjfotu4Wyx8G3plF0=
 			</data>
 		</dict>
-		<key>left_angle_bracket_fed.png</key>
+		<key>PDF_next_icon.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGl8TqjLgxty0HBr9y0YkJyTUFg4j/Rjta3Yqb/VEBk=
+			T3qjQEaRW9/fgdoG2BL3wU7dsEUicYidSpx6Za90BKI=
+			</data>
+		</dict>
+		<key>PDF_previous_fade_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RvM6UVELRxWHGoft7VmYnLTRUofh3SFfkghtSAQZWFM=
+			</data>
+		</dict>
+		<key>PDF_previous_icon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PekoPYbyL5H3OhAYBeRkrTH7gWRvgEE4DVWX3Pq+Z7Q=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
@@ -333,34 +339,6 @@
 			<key>hash2</key>
 			<data>
 			4GGtFhjWbkrl7cXmNqDKd0XMq1o5tsG/YtXAPAR8Mrk=
-			</data>
-		</dict>
-		<key>pdf_placeholder.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JfDRqe+KIwUpaX85XFUffEjASR9Jnxp8Zh6waFvKmM8=
-			</data>
-		</dict>
-		<key>right_angle_bracket.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oi+iB6kmfn3rpGOi7NMVnzpfH4+PeUPWI/Eda91vmSA=
-			</data>
-		</dict>
-		<key>right_angle_bracket_fed.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			alcl9NtdphBJxO3S8ZYW4QJZKCtvVgNW5A13QHzciFc=
-			</data>
-		</dict>
-		<key>sample.pdf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			I1Percn6h4F0E7I5hBo3P7Ud6LdKddPIyGPec1ygtKA=
 			</data>
 		</dict>
 	</dict>

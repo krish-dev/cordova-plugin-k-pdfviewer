@@ -10,10 +10,10 @@
     NSString *fileName = [options objectForKey:@"fileName"];
     NSLog(@"%@",fileName);
 
-    PDFViewer *pdfViewer = [[PDFViewer alloc] init];
-    [pdfViewer presentFromController:self.viewController pdfFilePath:@"pdf" currentPage:1 screenTitle:@"PDF VIEWER" popupMessage:@"Page book marked successfully" topbarColor:UIColor.cyanColor completionHandler:^(NSInteger pageNum) {
-        NSLog(@"Page num in Target: %d", (int)pageNum);
-    }];
+    // PDFViewer *pdfViewer = [[PDFViewer alloc] init];
+    // [pdfViewer presentFromController:self.viewController pdfFilePath:@"pdf" currentPage:1 screenTitle:@"PDF VIEWER" popupMessage:@"Page book marked successfully" topbarColor:UIColor.cyanColor completionHandler:^(NSInteger pageNum) {
+    //     NSLog(@"Page num in Target: %d", (int)pageNum);
+    // }];
 }
 
 @end

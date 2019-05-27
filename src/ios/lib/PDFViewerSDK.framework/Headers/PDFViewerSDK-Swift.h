@@ -164,6 +164,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import ObjectiveC;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -187,8 +188,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC12PDFViewerSDK9PDFViewer")
 @interface PDFViewer : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)presentFromController:(UIViewController * _Nonnull)controller pdfFilePath:(NSString * _Nonnull)pdfFilePath currentPage:(NSInteger)currentPage screenTitle:(NSString * _Nonnull)screenTitle popupMessage:(NSString * _Nonnull)popupMessage topbarColor:(UIColor * _Nullable)topbarColor completionHandler:(void (^ _Nonnull)(NSInteger))completionHandler;
+- (void)presentFromController:(UIViewController * _Nonnull)controller pdfFilePath:(NSString * _Nonnull)pdfFilePath currentIndex:(NSInteger)currentIndex screenTitle:(NSString * _Nonnull)screenTitle popupMessage:(NSString * _Nonnull)popupMessage topbarColor:(UIColor * _Nullable)topbarColor completionHandler:(void (^ _Nonnull)(NSInteger))completionHandler;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
