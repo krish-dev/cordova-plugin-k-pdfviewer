@@ -182,13 +182,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class UIViewController;
 @class UIColor;
+@class UIViewController;
 
 SWIFT_CLASS("_TtC12PDFViewerSDK9PDFViewer")
 @interface PDFViewer : NSObject
+@property (nonatomic, copy) NSString * _Nonnull topBarTitleText;
+@property (nonatomic, strong) UIColor * _Nonnull topBarBackgroundColor;
+@property (nonatomic, strong) UIColor * _Nonnull topBarTextColor;
+@property (nonatomic, copy) NSString * _Nonnull popUpTitle;
+@property (nonatomic, copy) NSString * _Nonnull pageBookMarkedMessage;
+@property (nonatomic, copy) NSString * _Nonnull fileNotFoundMessage;
+@property (nonatomic) NSInteger currentPageIndex;
+- (void)loadLoacalPDFFromController:(UIViewController * _Nonnull)controller fileName:(NSString * _Nonnull)fileName completionHandler:(void (^ _Nonnull)(NSInteger))completionHandler;
+- (void)loadRemotePDFFromController:(UIViewController * _Nonnull)controller urlString:(NSString * _Nonnull)urlString completionHandler:(void (^ _Nonnull)(NSInteger))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (void)presentFromController:(UIViewController * _Nonnull)controller pdfFilePath:(NSString * _Nonnull)pdfFilePath currentIndex:(NSInteger)currentIndex screenTitle:(NSString * _Nonnull)screenTitle popupMessage:(NSString * _Nonnull)popupMessage topbarColor:(UIColor * _Nullable)topbarColor completionHandler:(void (^ _Nonnull)(NSInteger))completionHandler;
 @end
 
 

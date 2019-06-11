@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		1AlEE5qXhJBQXoSG51F2mGEd7mE=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		2Yts+UWi56dZQV4okf99Hj0F0Bw=
@@ -58,7 +62,7 @@
 		</data>
 		<key>Headers/PDFViewerSDK-Swift.h</key>
 		<data>
-		WHPBVU83Qmiig0NnJAfu67ppX9A=
+		VzZrG4T6rJrzIraBeShjDuZ1+OY=
 		</data>
 		<key>Headers/PDFViewerSDK.h</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>Modules/PDFViewerSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		wzN6E0Kc7LnuatSu8iPeuWC/g7M=
+		OrQP3ZhpB/EioKZZ9sX4yLshcQY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		r8hONCzSIT3qgCHSwN0Lnf7DKgU=
+		G6Vml5It7WW9PgIph/arRWDzIS8=
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/Info.plist</key>
 		<data>
@@ -90,39 +94,7 @@
 		</data>
 		<key>PDFViewerStoryboard.storyboardc/PDFViewerVCStoryboardID.nib</key>
 		<data>
-		0nnyaM0sQk3vCEtaDB6KeosPLfs=
-		</data>
-		<key>PDF_backbutton_icon.png</key>
-		<data>
-		jwA2kxJG4aNSKyzizrFtuUv6WDI=
-		</data>
-		<key>PDF_bookmark_icon.png</key>
-		<data>
-		nGxa7H6aflpMOg25RChWJjywZfk=
-		</data>
-		<key>PDF_gotopage.png</key>
-		<data>
-		VseBq+WYCmVrYHb6DQTcQVcDmfM=
-		</data>
-		<key>PDF_menubar.png</key>
-		<data>
-		hfOwU2MRc/wLntGSh7PAZaHE+Qs=
-		</data>
-		<key>PDF_next_fade_icon.png</key>
-		<data>
-		oeuoVkerykPEg1dzd6dqyobmDMY=
-		</data>
-		<key>PDF_next_icon.png</key>
-		<data>
-		QW/LmpzwZgGwvc8NbKuVJDamrsk=
-		</data>
-		<key>PDF_previous_fade_icon.png</key>
-		<data>
-		5j3M3WpBLo8ITngltMA9xp/jp/E=
-		</data>
-		<key>PDF_previous_icon.png</key>
-		<data>
-		b9xbq7auDebVVbnLXJ96LRZWTes=
+		2GGx5Jl3ezjfPMRH/vHlIj6mCPE=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -131,6 +103,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gPGW5/knxuvwJCpO5+0etz/3z5b6A9mF09iVXJFkZjA=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash2</key>
@@ -226,7 +205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cq7L3Vd7ZAeimXTuTjmf5gTBnhGR2vSNllCva51C/QI=
+			27i4guYKmx6S/ueEx3PEnQ4vPAQ+h07XCLt7jfDduJk=
 			</data>
 		</dict>
 		<key>Headers/PDFViewerSDK.h</key>
@@ -247,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8hLMfwyy2rYrfHkpLtT4MoAhgNE8nXCurdqsULTVtY=
+			eCMU7G9dXlNuoDujuKVcyoC+f8VXMFJVr4Ap13UqUg4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -261,7 +240,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vgdwAg/efa8wbMKOYlXDa8Z/ebz7eWGwaIqGJ6wgZ+A=
+			7fl6kf7sG9uOsNGGNa/+LZ2IkTK3t0G0TmsTTTrGzoQ=
 			</data>
 		</dict>
 		<key>PDFViewerStoryboard.storyboardc/Info.plist</key>
@@ -275,63 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R7891zcLHK/RNSoj6qln6weTghM8FGAb/J6vCUHSuEM=
-			</data>
-		</dict>
-		<key>PDF_backbutton_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WKh6sCJ81Axg9HYpHXB0Q4dUWZUAswsqSZt06YO5vyc=
-			</data>
-		</dict>
-		<key>PDF_bookmark_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WjT2TTkWXw6SGPRmvzixZHe5fclwiG/ChGk+zYJVtzA=
-			</data>
-		</dict>
-		<key>PDF_gotopage.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t1jpnYfbUO0uiX4a2rOoQbE1YF6BitXxjQtuQ/Svn9I=
-			</data>
-		</dict>
-		<key>PDF_menubar.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5c/L+VMnaoYhtNOfpcXL5V6kH/lxwE8x7zXtC5jza0A=
-			</data>
-		</dict>
-		<key>PDF_next_fade_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wq7uho8Y2imJsivshf05+x6WuFtjfotu4Wyx8G3plF0=
-			</data>
-		</dict>
-		<key>PDF_next_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T3qjQEaRW9/fgdoG2BL3wU7dsEUicYidSpx6Za90BKI=
-			</data>
-		</dict>
-		<key>PDF_previous_fade_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RvM6UVELRxWHGoft7VmYnLTRUofh3SFfkghtSAQZWFM=
-			</data>
-		</dict>
-		<key>PDF_previous_icon.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PekoPYbyL5H3OhAYBeRkrTH7gWRvgEE4DVWX3Pq+Z7Q=
+			q7NEwuSbQuOoc0+smoKGIjZ4CQxBM+rPAKnvPea5xhQ=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
